@@ -95,6 +95,17 @@
   }
 }
 
+/*original css*/
+.demoTxt {
+    display: block;
+    opacity:0;
+  }
+  .demoTxt span {
+    opacity: 0;
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+  }
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
